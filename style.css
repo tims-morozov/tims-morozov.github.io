@@ -9,9 +9,9 @@ body {
     padding: 10px;
 }
 
-.logo {
+.logo_cont {
+    text-align: center;
     display: block;
-    width: 200px;
     margin: 25px auto;
     padding-top: 250px;
 }
@@ -43,11 +43,6 @@ input[type="text"] {
     width: 500px;
     border-radius: 24px;
     padding-left: 15px;
-    /*background-image: url(loupe.png);
-    background-size: 15px;
-    background-position: 13px 12px;
-    --background-position: right ;
-    background-repeat: no-repeat;*/
 }
 
 input[type="submit"] {
@@ -69,3 +64,11 @@ input[type="submit"]:hover {
     border: 1px solid #1c5f4183;
 }
 
+.detail input[type="text"]{
+    margin-bottom: 10px;
+}
+
+.detail input[type="submit"]{
+    text-align: center;
+    width: auto;    
+}

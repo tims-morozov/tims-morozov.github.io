@@ -6,8 +6,21 @@
     </head>
     <body>
         <nav>
-            <a href="http://tims-morozov.github.io">Номе</a>
-            <a href="http://tims-morozov.github.io"><img class="logo" src="logo.png"></a>
+            <a href="index.html">Номе</a>
+            <div class="logo_cont">
+                <a class="logo_home" href="index.html"><img class="logo" src="logo.png"></a>
+            </div>
         </nav>
+
+        <form class="detail" action="https://google.com/search" autocomplete="off">
+            <input type="text" name="q" placeholder="All words"> <br>
+            <input type="text" name="as_epq" placeholder="Is this a word or phrase"> <br>
+            <input type="text" name="as_oq" placeholder="Any of these words"> <br>
+            <input type="text" name="as_eq" placeholder="Besides these words"> <br>
+
+            <div class="right">
+                <input type="submit" value="Google Search">
+            </div>
+        </form>
     </body>
 </html>    
